@@ -1,0 +1,6 @@
+# visual studio stuff
+*.vcxproj
+*.vcxproj.*
+/debug/
+/release/
+/x64/
