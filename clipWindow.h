@@ -21,9 +21,11 @@ namespace clipWindow
 
 		std::shared_mutex _mu;
 	public:
+		CLIPWINDOW_API clipWindow();
 		CLIPWINDOW_API clipWindow(HWND);
 		CLIPWINDOW_API clipWindow(HANDLE);
 		CLIPWINDOW_API void start();
 		CLIPWINDOW_API void stop();
+		CLIPWINDOW_API void updateWindow(HWND);
 	};
 }
